@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <title>Number game</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="container__inner">
+    <h1 class="container__title">Угадай число от 1 до 100".</h1>
+    <p class="container__text"> Вы можете загадать случайное числа от 1 до 100</p>
+        <div class="container__form">
+            <label class="container__label">
+                <input type="text" class="container__failed" placeholder="введите число от 1 до 100">
+                <input type="submit" value="submit-number" class="container__btn">
+            </label>
+        </div>
+        <div class="container__result">
+            <p class="container__entered-number"> Entered numbers:</p>
+            <p class=" container__number-attempts">Number attempts кол-во попыток:</p>
+            <p class="container__wrong-result" style="background-color: red"> Wrong! не правельно </p>
+            <p class="container__correct-answer" style="background-color:aqua "> Correct answer </p>
+
+
+        </div>
+    </div>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>

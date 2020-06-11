@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: lightsteelblue;
+
+}
+
+.container__inner {
+    max-width: 1010px;
+    margin: 0 auto;
+
+
+}
+
+.container__title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 25px;
+
+}
+
+.container__text {
+    line-height: 1.2;
+
+}
+
+.container__form {
+}
+
+.container__label {
+}
+
+.container__failed {
+}
+
+.container__btn {
+}
+
+.container__result {
+}
+
+.container__entered-number {
+
+}
+
+.container__number-attempts {
+}
+
+.container__wrong-result {
+    text-align: center;
+    width: 100%;
+    color: wheat;
+    padding: 3px;
+}
+
+.container__correct-answer {
+    text-align: center;
+    width: 100%;
+    color: wheat;
+    padding: 3px;
+
+}
+
+
